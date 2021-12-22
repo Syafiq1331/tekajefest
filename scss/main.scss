@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navCustom {
+    background-color: #2C2C2C !important;
+}
+
+.customMain h2 {
+    margin-top: 25% !important;
+}
+
+#about {
+    margin-top: 5%;
+
+    .aboutCustomImg {
+        margin-bottom: 15%;
+    }
+
+    .aboutCustomText {
+        padding-top: 15%;
+    }
+}
+
+.serviceCustom {
+    margin-top: 15%;
+    margin-bottom: 8% !important;
+}
+
+#contacts {
+    margin-top: 10%;
+    margin-bottom: 8% !important;
+}
+
+.project {
+    background-color: #EEEEEE;
+}
