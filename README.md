@@ -1,6 +1,7 @@
+# tekajefest
+
 ![Landing Page TekajeFest](./img/Landing%20Page%20TekajeFest.png)
 
-# tekajefest
 Hallo perkenalkan nama ku Syafiq     
 TekajeFest adalah sebuah landing page tentang eskul jurusan yang ada di sekolah
 
