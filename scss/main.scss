@@ -1,39 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+$primary-font :'Fredoka',
+sans-serif;
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: $primary-font;
 }
 
 .navCustom {
     background-color: #2C2C2C !important;
 }
 
-.customMain h2 {
-    margin-top: 25% !important;
+.customMain {
+    margin-top: 15% !important;
+
+    h2 {
+        margin-top: 22% !important;
+    }
 }
 
 #about {
-    margin-top: 5%;
+    margin-top: 10%;
 
-    .aboutCustomImg {
-        margin-bottom: 15%;
-    }
-
-    .aboutCustomText {
-        padding-top: 15%;
+    .textIntro {
+        margin-top: 10%;
     }
 }
 
 .serviceCustom {
-    margin-top: 15%;
-    margin-bottom: 8% !important;
+    margin-top: 10% !important;
+    margin-bottom: 15% !important;
 }
 
 #contacts {
     margin-top: 10%;
-    margin-bottom: 8% !important;
+    margin-bottom: 15% !important;
 }
 
 .project {
     background-color: #EEEEEE;
+}
+
+@media screen and(max-width: 425px) {
+    #about {
+        img {
+            display: none !important;
+        }
+    }
 }
